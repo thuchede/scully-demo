@@ -1,0 +1,8 @@
+<h1>Blogs</h1>
+<ul>
+  <li
+    *ngFor="let blog of (blogs$ | async);trackBy:trackByFn"
+  >
+    <a [routerLink]="[blog.url]" routerLinkActive="router-link-active" >{{blog.name}}</a>
+  </li>
+</ul>

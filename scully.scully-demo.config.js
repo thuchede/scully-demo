@@ -9,5 +9,6 @@ exports.config = {
         folder: "./blog"
       }
     },
-  }
+  },
+  extraRoutes: ['/', '/blog/']
 };

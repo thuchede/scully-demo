@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'styles/normalize.css';
+@import 'tailwindcss';
+// @import 'tailwindcss/base';
+// @import 'tailwindcss/components';
+// @import 'tailwindcss/utilities';
+html,
+body,
+app-root {
+  height: 100%;
+}
+.flex-1-0-auto {
+  flex: 1 0 auto;
+}
